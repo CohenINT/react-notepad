@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NoteList from './notesList';
+import './main.css';
 
 export class index extends Component {
 
@@ -31,9 +32,14 @@ export class index extends Component {
     render() {
         return (
             <div className="ui text container">
+                <div className="content" style={{textAlign:'center'}}>
                 <p>All Notes</p>
                 {this.FetchNotes()}
-
+                <img className="ui btn buttons" src="https://img.icons8.com/flat_round/64/000000/plus.png"/>
+                
+                </div>
+                
+               
 
             </div>
         )

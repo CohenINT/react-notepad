@@ -5,9 +5,13 @@ const App = () =>{
 
 return(
 
-    <div className="ui stackable container">
+    <div className="ui container">
+                <a href="https://icons8.com/icon/80414/plus">Plus icon by Icons8</a>
+
         <MainPage/>
-        
+        <div className="content">
+
+        </div>
     </div>
 );
 

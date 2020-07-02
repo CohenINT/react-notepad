@@ -18,8 +18,9 @@ export default class note extends Component {
 
 
     render() {
+        //TODO: build click event handler on the chosen note, to navigate for edit page, and view the chosen note.
         return (
-            <div className="ui column fluid card">
+            <div id="note_container" className="ui column fluid card">
                 <div className="content">
 
                     <div className="header">
@@ -30,7 +31,7 @@ export default class note extends Component {
                 <div className="ui content content-text" >
                     {this.state.content}
 
-                
+
                 </div>
             </div>
         )
