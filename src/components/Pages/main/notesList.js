@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Note from './note';
+import './notesList.css';
 
 export default class notesList extends Component {
     constructor(props) {
@@ -19,9 +20,9 @@ export default class notesList extends Component {
             <Note key={note.id} id={note.id} title={note.title} content={note.content} />);
 
 
-            
+
         return (
-            <div className="ui one column grid" >
+            <div className="ui one column grid notesHolder" >
                    
                <ListFiles/>
 

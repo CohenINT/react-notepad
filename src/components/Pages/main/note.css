@@ -1,0 +1,4 @@
+.content-text{
+    overflow: hidden;
+     text-overflow: ellipsis;
+}

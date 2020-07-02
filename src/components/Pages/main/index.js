@@ -30,7 +30,7 @@ export class index extends Component {
 
     render() {
         return (
-            <div className="ui container">
+            <div className="ui text container">
                 <p>All Notes</p>
                 {this.FetchNotes()}
 
@@ -47,7 +47,7 @@ const notes =
         {
             id: "someID1",
             title: 'firstTitleNote',
-            content: "firstContentNote",
+            content: "firstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNotefirstContentNote",
 
 
         },

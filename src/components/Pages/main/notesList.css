@@ -1,0 +1,8 @@
+ .notesHolder{
+
+     overflow-y: hidden;
+      max-height: 600px;
+      scroll-behavior: smooth;
+        overflow-y: scroll;
+        
+    }

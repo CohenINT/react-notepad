@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './note.css';
 
 export default class note extends Component {
 
@@ -18,7 +19,7 @@ export default class note extends Component {
 
     render() {
         return (
-            <div className="ui column card">
+            <div className="ui column fluid card">
                 <div className="content">
 
                     <div className="header">
@@ -26,10 +27,10 @@ export default class note extends Component {
                          </div>
 
                 </div>
-                <div className="content">
+                <div className="ui content content-text" >
                     {this.state.content}
 
-
+                
                 </div>
             </div>
         )
