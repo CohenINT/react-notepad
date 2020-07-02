@@ -18,8 +18,10 @@ export default class notesList extends Component {
         const ListFiles= () => this.state.notesList.map((note) =>
             <Note key={note.id} id={note.id} title={note.title} content={note.content} />);
 
+
+            
         return (
-            <div className="ui container stackable menu" >
+            <div className="ui one column grid" >
                    
                <ListFiles/>
 

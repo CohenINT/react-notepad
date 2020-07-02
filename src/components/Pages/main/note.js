@@ -4,11 +4,11 @@ export default class note extends Component {
 
     constructor(props) {
         super(props);
-        console.log("Note: "+props.title+" ,"+props.content);
+        console.log("Note: " + props.title + " ," + props.content);
         this.state = {
-            id:props.id,
-            title:props.title,
-            content:props.content
+            id: props.id,
+            title: props.title,
+            content: props.content
 
         }
     }
@@ -18,9 +18,19 @@ export default class note extends Component {
 
     render() {
         return (
-            <div className="item">
-                    <p>{this.state.title}</p> 
-                    <p>{this.state.content}</p>
+            <div className="ui column card">
+                <div className="content">
+
+                    <div className="header">
+                        {this.state.title}
+                         </div>
+
+                </div>
+                <div className="content">
+                    {this.state.content}
+
+
+                </div>
             </div>
         )
     }

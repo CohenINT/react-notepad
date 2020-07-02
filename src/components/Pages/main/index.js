@@ -30,10 +30,10 @@ export class index extends Component {
 
     render() {
         return (
-            <div>
-                <p>Notepad</p>
-            {this.FetchNotes()}
-                    
+            <div className="ui container">
+                <p>All Notes</p>
+                {this.FetchNotes()}
+
 
             </div>
         )
