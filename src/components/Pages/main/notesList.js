@@ -19,11 +19,11 @@ export default class notesList extends Component {
             <Note key={note.id} id={note.id} title={note.title} content={note.content} />);
 
         return (
-            <React.Fragment>
+            <div className="ui container stackable menu" >
                    
                <ListFiles/>
 
-            </React.Fragment>
+            </div>
 
         );
 

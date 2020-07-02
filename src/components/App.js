@@ -5,7 +5,7 @@ const App = () =>{
 
 return(
 
-    <div className="ui container">
+    <div className="ui stackable container">
         <MainPage/>
         
     </div>

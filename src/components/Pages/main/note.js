@@ -18,7 +18,7 @@ export default class note extends Component {
 
     render() {
         return (
-            <div>
+            <div className="item">
                     <p>{this.state.title}</p> 
                     <p>{this.state.content}</p>
             </div>
