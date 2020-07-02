@@ -37,6 +37,7 @@ export default class notesList extends Component {
             <div>
 
                 {this.PopulateNotes()}
+                
             </div>
         )
     }

@@ -11,18 +11,20 @@ export class index extends Component {
         // that function will be called inside the loop of each json file
         // the note components would be inside notes list component, which is scroleable, with style adjustments.  this notes list components will accept list of notes, and inside the notes compontents it will populate notes
         //else not exist, then display only 'plus' svg symbol
-        const files = () => {
+        const getFiles = () => {
 
             //TODO: This will bring from server/local drive the json files and create json array to return back to notelist component.
             return notes
         };
 
-        if (files() == null) {//TODO: put svg with "plus" symbol.
+        const files = getFiles();
+
+        if (files == null) {//TODO: put svg with "plus" symbol.
             return <p>Add Note</p>;
         }
         else {
 
-            return <NoteList notesList={files()} />;
+            return <NoteList notesList={files} />;
         }
 
 
